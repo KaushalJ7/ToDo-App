@@ -1,0 +1,18 @@
+/* grid for 2section header and main
+grid template row for header height and auto for main */
+.app {
+  display: grid;
+  grid-template-rows: 150px auto;
+}
+
+/* flex for move column to row and space evenly for move in center and space equal space */
+.appMain {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px 8%;
+}
+
+.taskColumn {
+  width: 33.33%;
+  margin: 20px;
+}
